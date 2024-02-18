@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "cognitoclient89b31c6d": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_cognitoclient89b31c6d_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cognitoclient89b31c6d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cognitoclient89b31c6d_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cognitoclient89b31c6d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cognitoclient89b31c6d_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cognitoclient89b31c6d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_cognitoclient89b31c6d_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "cognitoclient89b31c6d"
+        }
+      ]
+    }
+  }
+}
