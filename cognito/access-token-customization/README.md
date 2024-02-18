@@ -1,8 +1,7 @@
 # Cognitoユーザープールのアクセストークンカスタマイズ機能がリリースされたので試してみる
 
 ## はじめに
-Cognitoユーザープールのアクセストークンカスタマイズ機能がリリースされたので試してみる記事内で使用したサンプルコードです。
-
+[Cognitoユーザープールのアクセストークンカスタマイズ機能がリリースされたので試してみる記事内](https://zenn.dev/souhub/articles/8206715fe713c4)で使用したサンプルコードです。
 ## 構成
 - `cognito-client`: Cognitoユーザープールのクライアントアプリケーション
 - `pre-token-generation-trigger`: CognitoユーザープールのPre Token Generation Triggerを実装したLambda関数
