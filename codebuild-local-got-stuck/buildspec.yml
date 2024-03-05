@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto17
+  pre_build:
+    on-failure: ABORT
+    commands:
+      - echo ビルド前の処理を書くよ
+      - echo ビルドがんばろう
+  build:
+    on-failure: ABORT
+    commands:
+      - echo ビルド開始するよ
+      - ./gradlew build
+      - echo ビルド完了したよ
+  post_build:
+    on-failure: ABORT
+    commands:
+      - echo ビルド後の処理を書くよ
+      - echo ビルドお疲れ様でした
+
+artifacts:
+  files:
+    - app/build/libs/app.jar
